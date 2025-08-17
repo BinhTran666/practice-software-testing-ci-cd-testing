@@ -21,10 +21,10 @@ jobs:
         shell: bash
       - name: Create & Seed database 🌱
         run: |
-          docker compose exec -T laravel-api php artisan migrate:refresh --seed
+          docker compose exec -u root -T laravel-api php artisan migrate:refresh --seed
       - name: Fix storage & cache permissions 🔑
         run: |
-          docker compose exec -T laravel-api chmod -R 777 storage bootstrap/cache
+          docker compose exec -u root -T laravel-api chmod -R 777 storage bootstrap/cache
       - name: Install Newman 📨
         run: npm install -g newman
       - name: Wait for API to be ready ⏳
