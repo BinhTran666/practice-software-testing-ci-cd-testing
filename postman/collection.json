@@ -184,7 +184,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"id\" : \"\",\r\n  \"name\": \"testProd\",\r\n  \"description\": \"this is a test product\",\r\n  \"stock\" : 1,\r\n  \"price\": 1.99,\r\n  \"category_id\": \"{{category_id}}\",\r\n  \"brand_id\": \"{{brand_id}}\",\r\n  \"product_image_id\": \"{{product_image_id}}\",\r\n  \"is_location_offer\": true,\r\n  \"is_rental\": false\r\n}",
+					"raw": "{\r\n  \"id\" : \"\",\r\n  \"name\": \"{{name}}\",\r\n  \"description\": \"{{description}}\",\r\n  \"stock\" : {{stock}},\r\n  \"price\": {{price}},\r\n  \"category_id\": \"{{category_id}}\",\r\n  \"brand_id\": \"{{brand_id}}\",\r\n  \"product_image_id\": \"{{product_image_id}}\",\r\n  \"is_location_offer\": true,\r\n  \"is_rental\": false\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -236,7 +236,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"name\" : \"testProdUpdate\",\r\n    \"stock\": 10\r\n}",
+					"raw": "{\r\n    \"name\" : \"{{update_name}}\",\r\n    \"stock\": {{update_stock}}\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"

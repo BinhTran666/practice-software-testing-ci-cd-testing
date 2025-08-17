@@ -36,7 +36,11 @@ jobs:
       - name: GET category
         run: curl -v -X GET 'http://localhost:8091/categories'
       - name: Run Postman API tests 🧪
-        run: newman run postman/collection.json -e postman/environment.json --reporters cli
+        run: |
+          newman run postman/collection.json \
+            -e postman/environment.json \
+            --iteration-data postman/product_data.json \
+            --reporters cli
       - name: POST login
         run: |
           curl -v -X POST 'http://localhost:8091/users/login' \

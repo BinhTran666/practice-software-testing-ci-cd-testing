@@ -1,0 +1,33 @@
+[
+  {
+    "name": "ProductA",
+    "description": "Description A",
+    "stock": 10,
+    "price": 1.99,
+    "update_stock": 5,
+    "update_name": "Updated ProductA"
+  },
+  {
+    "name": "ProductAProductAProductAProductAProductAProductAProductAProductAProductAProductAProductAProductAProductAProductAProductAProductAProductAProductAProductAProductAProductAProductAProductAProductAProductAProductAProductAProductAProductAProductAProductAProductAProductA",
+    "description": "product name > 120",
+    "stock": 10,
+    "price": 1.99,
+    "update_stock": 5,
+    "update_name": "Updated Product name > 120"
+  },
+  {
+    "name": "ProductC",
+    "description": "Description C",
+    "stock": -10,
+    "price": 1.99,
+    "update_stock": 10,
+    "update_name": "Updated ProductC"
+  },  {
+    "name": "ProductD",
+    "description": "Description D",
+    "stock": 10,
+    "price": -1.99,
+    "update_stock": 100,
+    "update_name": "Updated ProductD"
+  }
+]
