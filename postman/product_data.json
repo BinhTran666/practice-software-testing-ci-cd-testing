@@ -29,5 +29,38 @@
     "price": -1.99,
     "update_stock": 100,
     "update_name": "Updated ProductD"
+  },
+  {
+    "name": "ProductE",
+    "description": "Description E",
+    "stock": 10,
+    "price": 1.99,
+    "update_stock": -5,
+    "update_name": "Updated ProductE"
+  },
+  {
+    "name": "ProductF",
+    "description": "Description F",
+    "stock": 10,
+    "price": 1.99,
+    "update_stock": 5,
+    "update_name": ""
+  },
+  {
+    "name": "",
+    "description": "Description G",
+    "stock": 10,
+    "price": 1.99,
+    "update_stock": 5,
+    "update_name": "Updated ProductG"
+  },
+    {
+    "name": "ProductH",
+    "description": "Description H",
+    "stock": 10,
+    "price": 0.000001,
+    "update_stock": 5,
+    "update_name": "Updated ProductH"
   }
+
 ]
